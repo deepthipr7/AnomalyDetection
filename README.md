@@ -29,6 +29,8 @@ Following are some possible alternatives I came across but did not get a chance 
 4. Make sure to have a python version of 2.7 and above.
 5. Install pandas with command - sudo pip install pandas.
 6. Install stl decomposition with command - pip install stldecompose.
-4. Run jupyter notebook command.
-5. Jupyter opens in the browser. Double-click Anomaly detection algorithm.ipynb
-6. Run the code or shift+enter to get the results.
+7. Install plotlib with the command - sudo apt-get install python-matplotlib.
+8. Install numpy with command - sudo pip install numpy.
+9. Run jupyter notebook command.
+10. Jupyter opens in the browser. Double-click Anomaly detection algorithm.ipynb
+11. Run the code or shift+enter to get the results.
