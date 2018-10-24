@@ -1,6 +1,6 @@
 # AnomalyDetection
 
-This code implements a simple anomaly detection algorithm for the time series data in python.
+This code implements a simple anomaly detection algorithm for a time series data set (that has a significant seasonality component) in python.
 
 # High Level Overview of the Code and Algorithm:
 First, the provided data was visualized using tableau to gain an overall understanding. The visualization and observations have been show below.
@@ -19,8 +19,8 @@ The residual component of the time series was analyzed to detect the anomalous t
 
 Following are some possible alternatives I came across but did not get a chance to try due to limitations on time:
 
-      Alternate Algorithms: Exponential forecasting methods such as holt-winters seasonal model and classification and regression trees
-      Alternate Outlier Detection Methods: Median/Mean Absolute Deviation instead of Standard Deviation 
+1.  Alternate Algorithms: Exponential forecasting methods such as holt-winters seasonal model and classification and regression trees
+2.  Alternate Outlier Detection Methods: Median/Mean Absolute Deviation instead of Standard Deviation 
 
 # Execution Instructions (in Linux)
 1.  The code is developed in python.
@@ -29,8 +29,7 @@ Following are some possible alternatives I came across but did not get a chance 
 4.  Make sure to have a python version of 2.7 or above.
 5.  Install pandas with command - sudo pip install pandas.
 6.  Install stl decomposition with command - pip install stldecompose.
-7.  Install plotlib with the command - sudo apt-get install python-matplotlib.
-8.  Install numpy with command - sudo pip install numpy.
-9.  Run command jupyter notebook.
-10. Jupyter opens in the browser. Double-click Anomaly detection algorithm.ipynb.
-11. Run the code or shift+enter to get the results.
+7.  Install numpy with command - sudo pip install numpy.
+8.  Run command jupyter notebook.
+9.  Jupyter opens in the browser. Double-click Anomaly detection algorithm.ipynb.
+10. Run the code or shift+enter to get the results.
