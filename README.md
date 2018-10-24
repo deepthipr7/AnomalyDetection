@@ -1,9 +1,8 @@
 # AnomalyDetection
-Anomaly Detection algorithm for time series data
 
-Anomaly detection in time series data is finding an abnormlity in the data distribution considereinng the seasonlaity factor of the data.
+Anomaly detection in time series data is finding an abnormlity in the data distribution considering the seasonlaity factor of the data.
 
-High Level Overview of the Code and Algorithm:
+# High Level Overview of the Code and Algorithm:
 First, the provided data was visualized using tableau to gain an overall understanding. The visualization and observations have been show below.
 
 In order to detect the anomaly, the first step is to decompose the time series into its various components – trend, seasonality and residual. To do this, the Seasonal Trend Decomposition by Loess (STL) algorithm was selected. This algorithm handles seasonality very well and uses locally weighted polynomial regression to estimate trend (which is superior to using a moving average method). It is also pretty simple to implement.  The code was implemented in python using an open source library from stldecompose. 
@@ -19,3 +18,11 @@ Following are some possible alternatives I came across but did not get a chance 
 
       Alternate Algorithms: Exponential forecasting methods such as holt-winters seasonal model and classification and regression trees
       Alternate Outlier Detection Methods: Median/Mean Absolute Deviation instead of Standard Deviation 
+
+# Execution Instructions (in Linux)
+1. The code is developed in python.
+2. Download or clone the repository.
+3. Go to the folder and right click open terminal.
+4. Run jupyter notebook command.
+5. Jupyter opens in the browser. Double-click Anomaly detection algorithm.ipynb
+6. Run the code or shift+enter to get the results.
