@@ -23,14 +23,14 @@ Following are some possible alternatives I came across but did not get a chance 
       Alternate Outlier Detection Methods: Median/Mean Absolute Deviation instead of Standard Deviation 
 
 # Execution Instructions (in Linux)
-1. The code is developed in python.
-2. Download or clone the repository.
-3. Go to the folder and right click open terminal.
-4. Make sure to have a python version of 2.7 and above.
-5. Install pandas with command - sudo pip install pandas.
-6. Install stl decomposition with command - pip install stldecompose.
-7. Install plotlib with the command - sudo apt-get install python-matplotlib.
-8. Install numpy with command - sudo pip install numpy.
-9. Run jupyter notebook command.
-10. Jupyter opens in the browser. Double-click Anomaly detection algorithm.ipynb
+1.  The code is developed in python.
+2.  Download or clone the repository.
+3.  Go to the folder and right click open terminal.
+4.  Make sure to have a python version of 2.7 or above.
+5.  Install pandas with command - sudo pip install pandas.
+6.  Install stl decomposition with command - pip install stldecompose.
+7.  Install plotlib with the command - sudo apt-get install python-matplotlib.
+8.  Install numpy with command - sudo pip install numpy.
+9.  Run command jupyter notebook.
+10. Jupyter opens in the browser. Double-click Anomaly detection algorithm.ipynb.
 11. Run the code or shift+enter to get the results.
